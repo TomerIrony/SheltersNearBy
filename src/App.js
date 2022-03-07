@@ -48,7 +48,7 @@ function App() {
             premission={premission}
             googleMapURL={`https://maps.googleapis.com/maps/api/js?
     v=3.exp&libraries=geometry,
-    drawing,places&key=AIzaSyAHUyjAXuRpiC0h-M5bPkw0oOxCwlcgdMo`}
+    drawing,places`}
             loadingElement={<div style={{ height: '100%' }} />}
             containerElement={<div style={{ height: '100%' }} />}
             mapElement={<div style={{ height: '100%' }} />}
@@ -57,7 +57,7 @@ function App() {
           <WrappedMap
             googleMapURL={`https://maps.googleapis.com/maps/api/js?
 v=3.exp&libraries=geometry,
-drawing,places&key=AIzaSyAHUyjAXuRpiC0h-M5bPkw0oOxCwlcgdMo`}
+drawing,places`}
             location={{ lat: 31.994174, lng: 34.95205 }}
             loadingElement={<div style={{ height: '100%' }} />}
             containerElement={<div style={{ height: '100%' }} />}
